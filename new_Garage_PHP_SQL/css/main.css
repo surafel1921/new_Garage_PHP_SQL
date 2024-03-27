@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@media screen and (max-width: 900px) {
+    header .working-time , .Call-time , .Email-time{
+     display: none;
+    }
+    .footer-container{
+      
+    flex-direction: column;
+    text-align: center;
+    }
+  }
+header{
+    margin-top: 5px;
+}
+header .d-flex .logo{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+header .d-flex .logo span{
+   color: rgb(239,76,37);
+   text-shadow: 2px 2px 6px rgb(239,76,37);
+}
+header .d-flex .text-muted{
+    font-size: 10px;
+    font-weight: bold;
+
+ }
+ header .d-flex  .working-time-text-muted{
+    font-size: 18px;
+    font-weight: bold;
+
+ }
+ 
+ header .d-flex   .text-muted-Call-time{
+    font-size: 18px;
+    font-weight: bold;
+
+ }
+ header .d-flex   .text-muted-Email-time{
+    font-size: 18px;
+    font-weight: bold;
+
+ }
+
+ header .d-flex   .text-muted-day{
+    font-size: 12px;
+    font-weight: bold;
+
+ }
+ header .d-flex .text-muted-call{
+    font-size: 12px;
+    font-weight: bold;
+
+ }
+ header .d-flex .text-muted-email{
+    font-size: 12px;
+    font-weight: bold;
+
+ }
+
+
+header .d-flex  .material-symbols-outlined{
+    color: rgb(239,76,37);
+    text-shadow: 2px 2px 6px rgb(239,76,37);
+font-size: 32px;
+}
+header .d-flex .working-time-icon{
+    align-items: center;
+}
+header .d-flex .Call-time-icon{
+    align-items: center;
+}
+header .d-flex .Email-time-icon{
+    align-items: center;
+}
+
+header .d-flex .working-time-icon , .Call-time-icon , .Email-time-icon{
+  gap: 10px;
+}
+
+.container-xxl{
+    display: flex;
+    justify-content: space-between;
+}
+.container-xxxl{
+    position: sticky;
+    top: 0;
+ 
+    background:rgb(10,66,107);
+    font-size:18px;
+
+
+}
+
+
+.container-xxxl ul{
+    display: flex;
+justify-content: space-around;
+   
+}
+.container-xxxl ul li a{
+    color: white;
+    transition: all 0.5s ease 0s;
+
+}
+.container-xxxl ul li a span{
+   background-color:rgb(239,76,37);
+   padding: 5px;
+   
+   color: white;
+   
+}
+
+.container-xxxl ul li a:hover{
+    background-color:rgb(239,76,37);
+    color: white;
+    border-radius: 5px;
+
+}
+
+.main-part{
+   
+ 
+    margin-top: 70px;
+    background-color: rgba(0, 255, 255, 0.075);
+}
+.footer-text-white{
+    background:rgb(10,66,107);
+    color: white;
+
+}
+.footer-container .contact h3 , .service-hours h3 , .company h3{
+    margin-top: 25px;
+font-size: 20px;
+}
+.footer-container .contact p , .service-hours p , .company p{
+    font-size: 13px;
+    }
+.our-product .card .card-body{
+    animation: card 4s ease-in-out infinite  0s  ;
+    transition: all 0.5s ease 0s;
+    display: flex;
+    gap: 50px;
+   justify-content: center;
+
+
+
+}
+
+@keyframes card {
+    30%{
+         transform: translateX(60px);
+         
+    }    20%{
+        transform: translateX(-3px);
+
+    }
+    40%{
+        transform: translateX(90px);
+
+    }
+    60%{
+        transform: translateX(-60px);
+
+    }
+    80%{
+        transform: translateX(-30px);
+
+    }
+ 
+}
+.our-product h1{
+    font-size: 20px;
+
+}
+
+ .eiide-product .eiide-text p{
+    color:rgb(239,76,37);
+font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+   text-shadow: 2px 2px 6px rgb(239,76,37);
+
+}
+.eiide-product .arrow .material-symbols-outlined{
+    animation: eiide-product 4s ease infinite 0s;
+    transition: 0.5s ease 0s;
+font-size: 60px;
+z-index: -1;
+color: rgb(239,76,37);
+
+}
+@keyframes eiide-product {
+    30%{
+transform: translateY(70px);
+    }
+    80%{
+        transform: translateY(-70px);
+
+    }
+}
+
+.main-parts .car-service{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
+
+}
+
+
+/* @media screen and (max-width:600px) {
+    .main-parts .car-service{
+       }
+} */
+
+
+    

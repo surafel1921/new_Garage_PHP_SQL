@@ -1,0 +1,121 @@
+/* .container {
+    text-align: center;
+    
+}
+
+.logo{
+    text-align: center;
+    font-size: 40px;
+}
+.logo span{
+    color: rgb(239,76,37);
+}
+.container input[type='date'],input[type='text']{
+    border: none;
+    border-radius: 99999px;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    width: 75%;
+    padding: 6px;
+    text-align: center;
+
+}
+
+.container input[type='submit']{
+    margin-top: 40px;
+    border: none;
+    border-radius: 99999px;
+    border-bottom: 1px solid;
+    width: 75%;
+    padding: 6px;
+    background:linear-gradient(to right ,rgb(99,215,220) ,rgb(226,65,245) );
+}
+.container textarea{
+   text-align: center;
+    border: none;
+    border-radius: 99999px;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    width: 75%;
+    padding: 6px;
+  
+}
+.container select {
+    width: 75%;
+    text-align: center;
+    border: none;
+    border-radius: 99999px;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    padding: 6px;
+
+} 
+ */
+
+ .logo{
+    text-align: center;
+    font-size: 40px;
+}
+.logo span{
+    color: rgb(239,76,37);
+}
+ 
+.container form{
+    gap: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+}
+.container form input[type="text"],input[type="date"]{
+width: 400px;
+border: none;
+border-radius: 8px;
+ border-left: 1px solid;
+ border-right: 1px solid;
+
+border-bottom: 1px solid; 
+padding: 6px;
+
+
+}
+
+.container textarea{
+    text-align: center;
+     border: none;
+     border-radius: 8px;
+     border-left: 1px solid;
+     border-bottom: 1px solid;
+width: 410px;
+   
+     padding: 6px;
+   
+ }
+.container select {
+    border: none;
+    border-radius: 8px;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    padding: 6px;
+width: 400px;
+   
+
+} 
+.container input[type='submit']{
+    margin-top: 40px;
+    border: none;
+    border-radius: 99999px;
+    border-bottom: 1px solid;
+    width: 200px;
+    padding: 6px;
+    background:linear-gradient(to right ,rgba(99, 216, 220, 0.247) ,rgba(227, 65, 245, 0.247) );
+}
+.container input[type='submit']:hover{
+    margin-top: 40px;
+    border: none;
+    border-radius: 99999px;
+    border-bottom: 1px solid;
+    
+    padding: 6px;
+    background:linear-gradient(to right ,rgb(99,215,220) ,rgb(226,65,245) );
+}
